@@ -34,7 +34,7 @@ header .container {
 }
 
 .title {
-    font-size: 5em; /* Aumenta o tamanho para ser mais chamativo */
+    font-size: 2.5em; /* Diminuído de 3em para 2.5em */
     font-family: 'Great Vibes', cursive; /* Mantém a fonte cursiva */
     color: #fff;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra suave para destacar */
@@ -44,7 +44,7 @@ header .container {
 }
 
 .subtitle {
-    font-size: 2.5em; /* Ajusta o tamanho para ser visível e elegante */
+    font-size: 1.5em; /* Diminuído de 1.8em para 1.5em */
     font-family: 'Great Vibes', cursive; /* Mesma fonte cursiva para consistência */
     color: rgba(255, 255, 255, 0.8); /* Cor mais suave para não competir com o título principal */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para dar destaque */
