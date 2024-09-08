@@ -10,7 +10,7 @@ body {
 header {
     background-color: rgba(156, 39, 176, 0.8); /* Roxo clarinho translúcido */
     color: #fff;
-    padding: 15px 20px;
+    padding: 10px 20px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,11 +34,23 @@ header .container {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 5em; /* Aumenta o tamanho para ser mais chamativo */
+    font-family: 'Great Vibes', cursive; /* Mantém a fonte cursiva */
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3); /* Sombra suave para destacar */
+    letter-spacing: 2px; /* Ajusta o espaçamento entre as letras */
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .subtitle {
-    font-size: 1.8em;
+    font-size: 2.5em; /* Ajusta o tamanho para ser visível e elegante */
+    font-family: 'Great Vibes', cursive; /* Mesma fonte cursiva para consistência */
+    color: rgba(255, 255, 255, 0.8); /* Cor mais suave para não competir com o título principal */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para dar destaque */
+    letter-spacing: 1px; /* Espaçamento menor para o subtítulo */
+    text-align: center;
+    margin-top: -10px; /* Aproxima do título principal para parecer uma unidade */
 }
 
 nav ul {
@@ -49,14 +61,19 @@ nav ul {
     justify-content: center; /* Centraliza os itens do menu */
 }
 
-nav ul li {
-    margin: 0 15px;
+nav ul li a {
+    font-family: 'Dancing Script', cursive; /* Fonte cursiva */
+    font-size: 1.2em; /* Mantendo o tamanho original */
+    color: #ffffff; /* Cor branca para contraste com o fundo roxo */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4); /* Sombra sutil para destacar no menu */
+    padding: 10px 20px;
+    transition: color 0.3s ease, transform 0.3s ease; /* Suave transição ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado padrão */
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
+nav ul li a:hover {
+    color: #e0b3ff; /* Cor levemente mais clara ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho para interatividade */
 }
 
 .hero {
