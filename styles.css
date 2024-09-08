@@ -28,6 +28,7 @@ header .container {
 
 .title, .subtitle {
     margin: 0;
+    text-align: center; /* Garante que o texto esteja centralizado */
     font-family: 'Great Vibes', cursive; /* Fonte cursiva */
     color: #fff; /* Cor do texto */
     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; /* Borda preta fina */
